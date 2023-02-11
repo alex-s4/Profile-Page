@@ -1,0 +1,285 @@
+/* CSS Reset values */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.white-text {
+    color: white;
+}
+
+.gray-border {
+    border: 2px solid #bcbcbc;
+}
+
+.dark-background {
+    background-color: #333333;
+}
+
+/* Navbar section */
+
+#navbar {
+    padding: 14px 16vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.left-nav, .left-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.left-nav h2 {
+    margin-right: 42px;
+    font-size: 2em;
+}
+
+.left-nav ul li{
+    margin-right: 36px;
+}
+
+.right-nav button{
+    background-color: #219db7;
+    font-size: 22px;
+    padding: 4px 8px;
+    border: 3px solid black;
+    box-shadow: 2px 2px 0px black;
+}
+
+/* Body Section */
+
+#main-content {
+    display: flex;
+    padding: 0 16vw;
+    position: relative;
+    top: 40px;
+}
+
+#right-sidebar {
+    margin-left: 40px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.profile-card, .educ-card {
+    height: 475px;
+    margin-bottom: 40px;
+}
+
+.profile-card .top-layout {
+    background-color: #17a2b7;
+    height: 140px;
+}
+
+#profile-pic {
+    width: 150px;
+    margin-bottom: 14px;
+    border-radius: 50%;
+}
+
+.profile-card-contents {
+    margin-left: 38px;
+    position: relative;
+    top: -75px;
+}
+
+.profile-card-contents h1 {
+    font-size: 3em;
+}
+
+.location-details {
+    margin: 14px 0 22px;
+}
+
+.location-details a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 22px;
+}
+
+.location-details a:active {
+    color: black;
+}
+
+.profile-card-icons {
+    width: 20px;
+    margin-right: 14px;
+}
+
+.profile-card-contents ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.edit-profile-content {
+    margin-top: 18px;
+}
+
+.edit-profile-content a {
+    display: flex;
+    align-items: center;
+    color: #2b78e4;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.educ-card .top-layout {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.educ-card .top-layout h2 {
+    margin-left: 38px;
+}
+
+.educ-info {
+    margin-top: 24px;
+}
+
+.educ-list {
+    margin: 0 0 22px 38px;
+}
+
+.educ-period {
+    color: #6b6b6b;
+    margin: 5px 0 11px;
+}
+
+/* Right Sidebar */
+
+.friend-requests {
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+.friend-lists {
+    height: 520px;
+}
+
+.right-top-layout {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.count {
+    background-color: #cacaca;
+    color: #353535;
+    border-radius: 50%;
+    padding: 4px 11px;
+    margin: 0 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.pending-request-list ul {
+    margin: 14px 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.pending-request-list img, .friend-list-main img {
+    width: 70px;
+}
+
+
+.pending-request-list ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    
+}
+
+.pending-request-list ul li a, .friend-list-main ul li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 1.3em;
+}
+
+.pending-request-list ul li a img, .friend-list-main ul li a img{
+    margin-right: 14px;
+    border-radius: 50%;
+}
+
+.accept-reject-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.accept-reject-buttons button{
+    display: flex;
+    justify-content: right;
+    margin-left: 14px;
+    background-color: inherit;
+}
+
+.accept-reject-buttons button img{
+    width: 50px;
+}
+
+.friend-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.friend-list-main{
+    height: 385px;
+    margin-top: 16px;
+}
+
+.friend-list-main ul{
+    margin-left: 20px;
+}
+
+.friend-list-main ul li{
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.view-more-section {
+    border-top: 2px solid #bcbcbc;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.view-more-section a{
+    margin-left: 16px;
+    color: #375071;
+    font-size: 1.2em;
+    text-decoration: underline;
+}

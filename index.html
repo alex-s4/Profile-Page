@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigational Bar -->
+    <nav id="navbar" class="dark-background">
+        <div class="left-nav">
+            <h2 class="white-text">Profile</h2>
+            <ul>
+                <li><a href="#" class="white-text">Home</a></li>
+                <li><a href="#" class="white-text">My Profile</a></li>
+                <li><a href="#" class="white-text">Find Connections</a></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <button class="white-text">Sign Out</button>
+        </div>
+    </nav>
+    <!-- Body -->
+    <main id="main-content">
+        <!-- Main Content -->
+        <div id="body" class="col-2">
+            <div class="profile-card gray-border">
+                <div class="top-layout"></div>
+                <div class="profile-card-contents">
+                    <img src="icons/user-circle.png" alt="Profile Picture of User" id="profile-pic" class="gray-border">
+                    <h1>Jane Doe</h1>
+                    <div class="location-details">
+                        <a href="#"><img src="icons/map-marker.png" alt="Map Marker Icon" class="profile-card-icons">Seattle</a>
+                    </div>
+                    <div class="user-descriptions">
+                        <ul>
+                            <li>Developer&nbsp;&#124;</li>
+                            <li>&nbsp;Engineer&nbsp;&#124;</li>
+                            <li>&nbsp;Problem Solver</li>
+                        </ul>
+                    <p>Master of shadows and the Internet!</p>
+                    </div>
+                    <div class="edit-profile-content">
+                        <a href="#"><img src="icons/gear.png" alt="Edit profile Icon" class="profile-card-icons">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="educ-card gray-border">
+                <div class="top-layout dark-background">
+                    <h2 class="white-text">Education</h2>
+                </div>
+                <div class="educ-list">
+                    <div class="educ-info">
+                        <h1 class="educ-title">Coding Dojo - Full Stack Bootcamp</h1>
+                        <h2 class="educ-period">Dec 2019 - Mar 2020</h2>
+                        <p class="educ-desc">Triple black belt in Python, MERN and C#</p>
+                    </div>
+                    <div class="educ-info">
+                        <h1 class="educ-title">Harvard - Postgrad Studies</h1>
+                        <h2 class="educ-period">Dec 2013 - September 2017</h2>
+                        <p class="educ-desc">Obtained the highest honors of them all - Summa Cum Laude</p>
+                    </div>
+                    <div class="educ-info">
+                        <h1 class="educ-title">Squidward Community College</h1>
+                        <h2 class="educ-period">June 2012 - May 2013</h2>
+                        <p class="educ-desc">Vocational Course in Java Programming</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Sidebar -->
+        <div id="right-sidebar" class="col-1">
+            <div class="friend-requests gray-border">
+                <div class="right-top-layout dark-background white-text">
+                    <div class="count">
+                        <p>2</p>
+                    </div>
+                    <h2>Connection Requests</h2>
+                </div>
+                <div class="pending-request-list">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/todd-s.jpg" alt="Image of Todd E"><p>Todd E</p></a>
+                            <div class="accept-reject-buttons">
+                                <button><img src="icons/accept-circle.png" alt="Accept Button"></button>
+                                <button><img src="icons/close-circle.png" alt="Reject Button"></button>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/phil-s.jpg" alt="Image of Todd E"><p>Phil K</p></a>
+                            <div class="accept-reject-buttons">
+                                <button><img src="icons/accept-circle.png" alt="Accept Button"></button>
+                                <button><img src="icons/close-circle.png" alt="Reject Button"></button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="friend-lists gray-border">
+                <div class="right-top-layout dark-background white-text">
+                    <div class="count">
+                        <p>500+</p>
+                    </div>
+                    <h2>Your Connections</h2>
+                </div>
+                <div class="friend-list-main">
+                    <ul>
+                        <li><a href="#"><img src="img/adrien-s.jpg" alt="Image of Adrien D">Adrien D</a></li>
+                        <li><a href="#"><img src="img/anne-s.jpg" alt="Image of Anne J">Anne J</a></li>
+                        <li><a href="#"><img src="img/alayne-s.jpg" alt="Image of Alayne T">Alayne T</a></li>
+                        <li><a href="#"><img src="img/arry-s.jpg" alt="Image of Arry Y">Arry Y</a></li>
+                    </ul>
+                </div>
+                <div class="view-more-section">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

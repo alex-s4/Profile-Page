@@ -30,7 +30,7 @@
                 <div class="top-layout"></div>
                 <div class="profile-card-contents">
                     <img src="img/jane-m.jpg" alt="Profile Picture of Jane" id="profile-pic" class="gray-border">
-                    <h1>Jane Doe</h1>
+                    <h1 id="main-user-name">Jane Doe</h1>
                     <div class="location-details">
                         <a href="#"><img src="icons/map-marker.png" alt="Map Marker Icon" class="profile-card-icons">Seattle</a>
                     </div>
@@ -43,7 +43,7 @@
                     <p>Master of shadows and the Internet!</p>
                     </div>
                     <div class="edit-profile-content">
-                        <a href="#"><img src="icons/gear.png" alt="Edit profile Icon" class="profile-card-icons">edit profile</a>
+                        <a href="#" id="edit-profile-btn"><img src="icons/gear.png" alt="Edit profile Icon" class="profile-card-icons">edit profile</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
             <div class="friend-requests gray-border">
                 <div class="right-top-layout dark-background white-text">
                     <div class="count">
-                        <p>2</p>
+                        <p id="pending-request-count">2</p>
                     </div>
                     <h2>Connection Requests</h2>
                 </div>
@@ -85,15 +85,15 @@
                         <li>
                             <a href="#"><img src="img/todd-s.jpg" alt="Image of Todd E"><p>Todd E</p></a>
                             <div class="accept-reject-buttons">
-                                <button><img src="icons/accept-circle.png" alt="Accept Button"></button>
-                                <button><img src="icons/close-circle.png" alt="Reject Button"></button>
+                                <button><img src="icons/accept-circle.png" alt="Accept Button" class="accept-btn"></button>
+                                <button><img src="icons/close-circle.png" alt="Reject Button" class="reject-btn"></button>
                             </div>
                         </li>
                         <li>
                             <a href="#"><img src="img/phil-s.jpg" alt="Image of Todd E"><p>Phil K</p></a>
                             <div class="accept-reject-buttons">
-                                <button><img src="icons/accept-circle.png" alt="Accept Button"></button>
-                                <button><img src="icons/close-circle.png" alt="Reject Button"></button>
+                                <button><img src="icons/accept-circle.png" alt="Accept Button" class="accept-btn"></button>
+                                <button><img src="icons/close-circle.png" alt="Reject Button" class="reject-btn"></button>
                             </div>
                         </li>
                     </ul>
@@ -103,7 +103,7 @@
             <div class="friend-lists gray-border">
                 <div class="right-top-layout dark-background white-text">
                     <div class="count">
-                        <p>500+</p>
+                        <p id="friend-list-count">418</p>
                     </div>
                     <h2>Your Connections</h2>
                 </div>
@@ -121,5 +121,7 @@
             </div>
         </div>
     </main>
+
+    <script src="index.js"></script>
 </body>
 </html>

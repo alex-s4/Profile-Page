@@ -1,3 +1,5 @@
+// Warning: Code is ugly, will fix probably soon
+
 const mainUserName = document.querySelector("#main-user-name");
 const editProfile = document.querySelector("#edit-profile-btn");
 const acceptBtn = document.querySelectorAll(".accept-btn");
